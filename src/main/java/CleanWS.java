@@ -1,9 +1,9 @@
 import java.io.File;
 
 /**
- * 清理工作空间或其他目录,如果目录不存在则创建一个。
- * @author mamay
- *
+ * 清理工作空间或其他目�?如果目录不存在则创建一个�?
+ * @author ljr
+ * 
  */
 public class CleanWS {
 	public static void doclean(String WS){
