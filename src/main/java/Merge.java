@@ -38,7 +38,6 @@ public class Merge {
 		diffClient.setIgnoreExternals(false);
 		DefaultSVNOptions options = (DefaultSVNOptions)diffClient.getOptions();
 		options.setConflictHandler(new SimpleConflictHandler());
-//		diffClient.setOptions(options);
 		
 		SVNRepository svnRepository = SVNRepositoryFactory.create(srcURL);
 		String username = "doncat";
